@@ -1,0 +1,31 @@
+{
+  "name": "cafe-compass-backend",
+  "version": "1.0.0",
+  "description": "Backend services for Cafe Compass - scraping and data processing",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "scrape:reviews": "tsx src/scripts/scrape-reviews.ts",
+    "scrape:cafe": "tsx src/scripts/scrape-single-cafe.ts",
+    "analyze:cafes": "tsx src/scripts/analyze-cafes.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": ["cafe", "scraping", "reviews", "outscraper"],
+  "author": "stse3",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "dotenv": "^16.3.1",
+    "zod": "^3.22.4",
+    "uuid": "^9.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/uuid": "^9.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.2.2"
+  }
+}
