@@ -34,16 +34,6 @@ export function Footer() {
                   My Cafés
                 </Link>
               </li>
-              <li>
-                <Link to="/profile" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
-                  Profile
-                </Link>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
-                  Popular Cities
-                </a>
-              </li>
             </ul>
           </div>
         </div>
