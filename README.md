@@ -4,6 +4,8 @@
 
 CafeCompass helps cafe lovers and remote workers discover work-friendly cafes by analyzing 1000+ customer google reviews for you. WiFi speed, outlet availability, noise levels, and workspace quality are all scored using AI, so you can focus on what matters – getting work done in a cozy cafe atmosphere.
 
+See a demo at https://sherrytse.com/projects <3
+
 ![CafeCompass Screenshot](frontend/src/assets/screenshot.png)
 
 ## ✨ Features
